@@ -5,6 +5,15 @@ app_description = "Standard dashboards with Vue JS"
 app_email = "amar.p@groupteampro.com"
 app_license = "mit"
 
+# Website Route Rules
+# -------------------
+# Serve the Vue SPA (www/dashboard) for all /dashboard/* sub-paths so that
+# Vue Router (history mode, base "/dashboard") can handle client-side routing
+# when a sub-route like /dashboard/management is opened directly in the browser.
+website_route_rules = [
+	{"from_route": "/dashboard/<path:subpath>", "to_route": "dashboard"},
+]
+
 # Apps
 # ------------------
 

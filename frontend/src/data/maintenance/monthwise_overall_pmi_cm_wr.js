@@ -1140,5 +1140,344 @@
   }
 ]
 },
+{
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS10'
+  },  
+  records: [
+  {
+    month: "April-2026",
+    PM: 4012,
+    CM: 98,
+    WR: 4
+  },
+  {
+    month: "May-2026",
+    PM: 5349,
+    CM: 77,
+    WR: 4
+  },
+  {
+    month: "June-2026",
+    PM: 4168,
+    CM: 65,
+    WR: 2
+  }
+]
+},
+  {
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS06'
+  },  
+ records: [
+  {
+    month: "April",
+    PM: 3517,
+    CM: 215,
+    WR: 25
+  },
+  {
+    month: "May",
+    PM: 3650,
+    CM: 168,
+    WR: 29
+  },
+  {
+    month: "June",
+    PM: 3607,
+    CM: 158,
+    WR: 24
+  }
+]
+},
+  {
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS03'
+  },  
+  records: [
+  {
+    month: "April",
+    PM: 4960,
+    CM: 564,
+    WR: 32
+  },
+  {
+    month: "May",
+    PM: 6667,
+    CM: 486,
+    WR: 26
+  },
+  {
+    month: "June",
+    PM: 5192,
+    CM: 583,
+    WR: 15
+  }
+]
+},
+  {
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS01'
+  },  
+   records: [
+  {
+    month: "April",
+    PM: 2207,
+    CM: 55,
+    WR: 10
+  },
+  {
+    month: "May",
+    PM: 2892,
+    CM: 68,
+    WR: 8
+  },
+  {
+    month: "June",
+    PM: 2106,
+    CM: 65,
+    WR: 27
+  }
+]
+},
+  {
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PRS1'
+  },  
+   records: [
+  {
+    month: "April",
+    PM: 1899,
+    CM: 69,
+    WR: 5
+  },
+  {
+    month: "May",
+    PM: 2384,
+    CM: 72,
+    WR: 8
+  },
+  {
+    month: "June",
+    PM: 1945,
+    CM: 63,
+    WR: 6
+  }
+]
+},
+  {
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS05'
+  },  
+   records: [
+  {
+    month: "April",
+    PM: 2131,
+    CM: 95,
+    WR: 5
+  },
+  {
+    month: "May",
+    PM: 2845,
+    CM: 42,
+    WR: 5
+  },
+  {
+    month: "June",
+    PM: 2270,
+    CM: 67,
+    WR: 5
+  }
+]
+},
 
+ {
+    meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS06'
+  },  
+   records: [
+  {
+    month: "May",
+    PM: 3650,
+    CM: 168,
+    WR: 29
+  },
+  {
+    month: "June",
+    PM: 3607,
+    CM: 158,
+    WR: 24
+  },
+  {
+    month: "July",
+    PM: 3703,
+    CM: 227,
+    WR: 34
+  }
+]
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS10'
+  },
+
+  records: [
+    {
+      month: "May",
+      PM: 5349,
+      CM: 77,
+      WR: 4
+    },
+    {
+      month: "June",
+      PM: 4168,
+      CM: 65,
+      WR: 2
+    },
+    {
+      month: "July",
+      PM: 4074,
+      CM: 86,
+      WR: 3
+    }
+  ]
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS01'
+  },
+
+  records: [
+    {
+      month: "May",
+      PM: 2892,
+      CM: 68,
+      WR: 8
+    },
+    {
+      month: "June",
+      PM: 2106,
+      CM: 65,
+      WR: 27
+    },
+    {
+      month: "July",
+      PM: 2274,
+      CM: 82,
+      WR: 11
+    }
+  ]
+},
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PRS1'
+  },
+
+  records: [
+    {
+      month: "May",
+      PM: 2384,
+      CM: 72,
+      WR: 8
+    },
+    {
+      month: "June",
+      PM: 1945,
+      CM: 63,
+      WR: 6
+    },
+    {
+      month: "July",
+      PM: 1944,
+      CM: 81,
+      WR: 5
+    }
+  ]
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS03'
+  },
+
+  records: [
+    {
+      month: "May",
+      PM: 6667,
+      CM: 486,
+      WR: 26,
+      grand_total: 7179
+    },
+    {
+      month: "June",
+      PM: 5192,
+      CM: 583,
+      WR: 15,
+      grand_total: 5790
+    },
+    {
+      month: "July",
+      PM: 6523,
+      CM: 529,
+      WR: 7,
+      grand_total: 7059
+    }
+  ]
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS05'
+  },
+
+  records: [
+    {
+      month: "May",
+      PM: 2845,
+      CM: 42,
+      WR: 5,
+      grand_total: 2892
+    },
+    {
+      month: "June",
+      PM: 2270,
+      CM: 69,
+      WR: 5,
+      grand_total: 2344
+    },
+    {
+      month: "July",
+      PM: 2141,
+      CM: 94,
+      WR: 2,
+      grand_total: 2237
+    }
+  ]
+},
 ];

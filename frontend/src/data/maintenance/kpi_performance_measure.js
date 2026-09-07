@@ -2007,4 +2007,573 @@ records: [
 ]
 
 },
+{
+
+     meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS10'
+  }, 
+
+ records: [
+  {
+    title: 'MANAGEMENT SERVICES',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+    performanceMeasure: 98.79,
+    achieved: 100.00
+  },
+  {
+    title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+    performanceMeasure: 99.44,
+    achieved: 100.00
+  },
+  {
+    title: 'CIVIL AND FABRIC MAINTENANCE',
+    performanceMeasure: 99.52,
+    achieved: 100.00
+  },
+  {
+    title: 'CLEANING AND WASTE MANAGEMENT',
+    performanceMeasure: 99.05,
+    achieved: 100.00
+  },
+  {
+    title: 'LANDSCAPING',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'ATTENDANCE',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  }
+]
+
+},
+  {
+
+     meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS06'
+  }, 
+
+  records:[  
+  {
+    title: 'MANAGEMENT SERVICES',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'CIVIL AND FABRIC MAINTENANCE',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'CLEANING AND WASTE MANAGEMENT',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'LANDSCAPING',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'ATTENDANCE',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  }
+
+]
+
+},
+  {
+
+     meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS03'
+  }, 
+
+  records: [
+  {
+    title: 'MANAGEMENT SERVICES',
+    performanceMeasure: 100.00,
+    achieved: 99.82
+  },
+  {
+    title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+    performanceMeasure: 98.79,
+    achieved: 99.45
+  },
+  {
+    title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+    performanceMeasure: 99.42,
+    achieved: 99.85
+  },
+  {
+    title: 'CIVIL AND FABRIC MAINTENANCE',
+    performanceMeasure: 99.52,
+    achieved: 100.00
+  },
+  {
+    title: 'CLEANING AND WASTE MANAGEMENT',
+    performanceMeasure: 99.05,
+    achieved: 99.76
+  },
+  {
+    title: 'LANDSCAPING',
+    performanceMeasure: 100.00,
+    achieved: 99.47
+  },
+  {
+    title: 'ATTENDANCE',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  }
+]
+
+},
+  {
+
+     meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS01'
+  }, 
+
+  records: [
+  {
+    title: 'MANAGEMENT SERVICES',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+    performanceMeasure: 98.79,
+    achieved: 100.00
+  },
+  {
+    title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+    performanceMeasure: 99.44,
+    achieved: 100.00
+  },
+  {
+    title: 'CIVIL AND FABRIC MAINTENANCE',
+    performanceMeasure: 99.52,
+    achieved: 100.00
+  },
+  {
+    title: 'CLEANING AND WASTE MANAGEMENT',
+    performanceMeasure: 99.05,
+    achieved: 100.00
+  },
+  {
+    title: 'LANDSCAPING',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'ATTENDANCE',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  }
+]
+
+},
+  {
+
+     meta: {
+    year: 2026,
+    month: "June",
+    site: 'PRS1'
+  }, 
+
+  records: [
+  {
+    title: 'MANAGEMENT SERVICES',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+    performanceMeasure: 98.79,
+    achieved: 99.94
+  },
+  {
+    title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+    performanceMeasure: 99.62,
+    achieved: 99.81
+  },
+  {
+    title: 'CIVIL AND FABRIC MAINTENANCE',
+    performanceMeasure: 99.52,
+    achieved: 100.00
+  },
+  {
+    title: 'CLEANING AND WASTE MANAGEMENT',
+    performanceMeasure: 99.05,
+    achieved: 100.00
+  },
+  {
+    title: 'LANDSCAPING',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'AVAILABILTY',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  }
+]
+
+},
+  {
+
+     meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS05'
+  }, 
+
+  records: [
+  {
+    title: 'MANAGEMENT SERVICES',
+    performanceMeasure: 100.00,
+    achieved: 99.91
+  },
+  {
+    title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+    performanceMeasure: 98.79,
+    achieved: 99.72
+  },
+  {
+    title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+    performanceMeasure: 99.44,
+    achieved: 100.00
+  },
+  {
+    title: 'CIVIL AND FABRIC MAINTENANCE',
+    performanceMeasure: 99.52,
+    achieved: 100.00
+  },
+  {
+    title: 'CLEANING AND WASTE MANAGEMENT',
+    performanceMeasure: 99.05,
+    achieved: 100.00
+  },
+  {
+    title: 'LANDSCAPING',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  },
+  {
+    title: 'ATTENDANCE',
+    performanceMeasure: 100.00,
+    achieved: 100.00
+  }
+]
+
+},
+
+{
+
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS06'
+  },
+
+  records: [
+    {
+      title: 'MANAGEMENT SERVICES',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'CIVIL AND FABRIC MAINTENANCE',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'CLEANING AND WASTE MANAGEMENT',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'LANDSCAPING',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'ATTENDANCE',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    }
+  ]
+
+},
+
+{
+
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS10'
+  },
+
+  records: [
+    {
+      title: 'MANAGEMENT SERVICES',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+      performanceMeasure: 98.79,
+      achieved: 100.00
+    },
+    {
+      title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+      performanceMeasure: 99.44,
+      achieved: 99.96
+    },
+    {
+      title: 'CIVIL AND FABRIC MAINTENANCE',
+      performanceMeasure: 99.52,
+      achieved: 100.00
+    },
+    {
+      title: 'CLEANING AND WASTE MANAGEMENT',
+      performanceMeasure: 99.05,
+      achieved: 100.00
+    },
+    {
+      title: 'LANDSCAPING',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'ATTENDANCE',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    }
+  ]
+
+},
+
+{
+
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PRS1'
+  },
+
+  records: [
+    {
+      title: 'MANAGEMENT SERVICES',
+      performanceMeasure: 100.00,
+      achieved: 99.67
+    },
+    {
+      title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+      performanceMeasure: 98.79,
+      achieved: 99.88
+    },
+    {
+      title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'CIVIL AND FABRIC MAINTENANCE',
+      performanceMeasure: 99.76,
+      achieved: 99.86
+    },
+    {
+      title: 'CLEANING AND WASTE MANAGEMENT',
+      performanceMeasure: 99.05,
+      achieved: 100.00
+    },
+    {
+      title: 'LANDSCAPING',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'AVAILABILTY',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    }
+  ]
+
+},
+
+{
+
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS03'
+  },
+
+  records: [
+    {
+      title: 'MANAGEMENT SERVICES',
+      performanceMeasure: 100.00,
+      achieved: 99.82
+    },
+    {
+      title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+      performanceMeasure: 98.79,
+      achieved: 99.45
+    },
+    {
+      title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+      performanceMeasure: 99.42,
+      achieved: 99.85
+    },
+    {
+      title: 'CIVIL AND FABRIC MAINTENANCE',
+      performanceMeasure: 99.52,
+      achieved: 100.00
+    },
+    {
+      title: 'CLEANING AND WASTE MANAGEMENT',
+      performanceMeasure: 99.05,
+      achieved: 99.76
+    },
+    {
+      title: 'LANDSCAPING',
+      performanceMeasure: 99.47,
+      achieved: 99.47
+    },
+    {
+      title: 'ATTENDANCE',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    }
+  ]
+
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS05'
+  },
+
+  records: [
+    {
+      title: 'MANAGEMENT SERVICES',
+      performanceMeasure: 100.00,
+      achieved: 99.91
+    },
+    {
+      title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+      performanceMeasure: 98.79,
+      achieved: 99.84
+    },
+    {
+      title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+      performanceMeasure: 99.44,
+      achieved: 100.00
+    },
+    {
+      title: 'CIVIL AND FABRIC MAINTENANCE',
+      performanceMeasure: 99.52,
+      achieved: 100.00
+    },
+    {
+      title: 'CLEANING AND WASTE MANAGEMENT',
+      performanceMeasure: 99.05,
+      achieved: 100.00
+    },
+    {
+      title: 'LANDSCAPING',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'ATTENDANCE',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    }
+  ]
+
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS01'
+  },
+
+  records: [
+    {
+      title: 'MANAGEMENT SERVICES',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'ENVIRONMENTAL, HEALTH AND SAFETY',
+      performanceMeasure: 98.79,
+      achieved: 100.00
+    },
+    {
+      title: 'MECHANICAL, ELECTRICAL AND PLUMBING',
+      performanceMeasure: 99.44,
+      achieved: 100.00
+    },
+    {
+      title: 'CIVIL AND FABRIC MAINTENANCE',
+      performanceMeasure: 99.52,
+      achieved: 100.00
+    },
+    {
+      title: 'CLEANING AND WASTE MANAGEMENT',
+      performanceMeasure: 99.05,
+      achieved: 100.00
+    },
+    {
+      title: 'LANDSCAPING',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    },
+    {
+      title: 'ATTENDANCE',
+      performanceMeasure: 100.00,
+      achieved: 100.00
+    }
+  ]
+
+},
 ];

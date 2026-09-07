@@ -742,6 +742,231 @@ occupancyPercent: [94, 100, 100]
   }
 ]
     },   
+{
+  meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS10'
+  },    
+        
+ records: [
+  {
+    buildings: ["1001 - Type 1", "1001 - Type 2", "1002 - Type 3", "1003 - Type 3", "1004 - Type 4", "Nurse Room", "Driver Room"],
+    totalRooms:      [8, 32, 88, 88, 28, 1, 1],
+    occupiedRooms:   [6, 30, 85, 87, 21, 1, 1],
+    vacantRooms:     [2, 2, 3, 1, 7, 0, 0],
+    occupancyPercent:[75, 94, 97, 99, 75, 100, 100]
+  }
+]
+    },
+  {
+  meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS06'
+  },    
+        
+  records:[
+  {
+    buildings: ["6100", "6101", "6102", "6103", "6000"],
+    totalRooms:      [8, 42, 96, 96, 28],
+    occupiedRooms:   [2, 39, 92, 92, 27],
+    vacantRooms:     [6, 3, 4, 4, 1],
+    occupancyPercent:[25, 93, 96, 96, 96]
 
+  }
+]
+    },
+  {
+  meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS03'
+  },    
+        
+ records: [
+  {
+    buildings: ["3101", "3117", "3102", "3103", "3104", "3105", "3106", "3107", "3100"],
+    totalRooms:      [80, 56, 84, 84, 84, 90, 90, 38, 2],
+    occupiedRooms:   [74, 55, 84, 84, 82, 88, 90, 32, 2],
+    vacantRooms:     [6, 1, 0, 0, 2, 2, 0, 6, 0],
+    occupancyPercent:[93, 98, 100, 100, 98, 98, 100, 84, 100]
+  }
+]
+    },      
+  {
+  meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS01'
+  },    
+        
+ records: [
+  {
+    buildings: ["101", "102", "103"],
+    totalRooms:      [14, 112, 9],
+    occupiedRooms:   [11, 105, 3],
+    vacantRooms:     [3, 7, 6],
+    occupancyPercent:[79, 94, 33]
+  }
+]
+    },
+  {
+  meta: {
+    year: 2026,
+    month: "June ",
+    site: 'PRS1'
+  },    
+        
+  records: [
+  {
+    buildings: ["1101", "1102", "1103"],
+    totalRooms:      [20, 60, 7],
+    occupiedRooms:   [17, 59, 6],
+    vacantRooms:     [3, 1, 1],
+    occupancyPercent:[85, 98, 86]
+  }
+]
+    },
+  {
+  meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS05'
+  },    
+        
+ records: [
+  {
+    buildings: ["5100", "5101", "5102"],
+    totalRooms:      [16, 72, 7],
+    occupiedRooms:   [16, 72, 7],
+    vacantRooms:     [0, 0, 0],
+    occupancyPercent:[100, 100, 100]
+  }
+]
+    },   
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS06'
+  },    
+        
+records: [
+    {
+      buildings: ["TYPE - 1", "TYPE - 2", "TYPE - 3-1", "TYPE - 3-2", "TYPE - 4", "TOTAL"],
+      totalRooms:       [8, 42, 96, 96, 28, 270],
+      occupiedRooms:    [2, 38, 91, 90, 28, 249],
+      vacantRooms:      [6, 4, 5, 6, 0, 21],
+      occupancyPercent: [25, 90, 95, 94, 96, 92]
+    }
+  ]
+    },   
     
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS10'
+  },
+
+  records: [
+    {
+      buildings: ["1001 - Type 1", "1001 - Type 2", "1002 - Type 3", "1003 - Type 3", "1004 - Type 4", "Nurse Room", "Driver Room", "TOTAL"],
+      totalRooms:       [8, 32, 88, 88, 28, 1, 1, 246],
+      occupiedRooms:    [6, 31, 88, 88, 20, 1, 1, 235],
+      vacantRooms:      [2, 1, 0, 0, 8, 0, 0, 11],
+      occupancyPercent: [75, 97, 100, 100, 71, 100, 100, 96]
+    }
+  ]
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS01'
+  },
+
+  records: [
+    {
+      buildings: ["101 - Type 1 & 2", "102 - Type 3", "103 - Type 4", "TOTAL"],
+      totalRooms:       [14, 112, 9, 135],
+      occupiedRooms:    [11, 108, 5, 124],
+      vacantRooms:      [3, 4, 4, 11],
+      occupancyPercent: [79, 96, 56, 92]
+    }
+  ]
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PRS1'
+  },
+
+  records: [
+    {
+      buildings: ["1101 - Type 1 & 2", "1102 - Type 3", "1103 - Type 4", "TOTAL"],
+      totalRooms:       [20, 60, 7, 87],
+      occupiedRooms:    [16, 60, 7, 83],
+      vacantRooms:      [4, 0, 0, 4],
+      occupancyPercent: [80, 100, 100, 95]
+    }
+  ]
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS03'
+  },
+
+  records: [
+    {
+      buildings: [
+        "3101 - Type 1 & 2",
+        "3117 - Type 2",
+        "3102 - Type 3",
+        "3103 - Type 3",
+        "3104 - Type 3",
+        "3105 - Type 3",
+        "3106 - Type 3",
+        "3107 - Type 4",
+        "3100 - Community Center",
+        "TOTAL"
+      ],
+      totalRooms:       [80, 56, 84, 84, 84, 90, 90, 38, 2, 608],
+      occupiedRooms:    [70, 55, 81, 84, 81, 85, 90, 32, 2, 580],
+      vacantRooms:      [10, 1, 3, 0, 3, 5, 0, 6, 0, 28],
+      occupancyPercent: [88, 98, 96, 100, 96, 94, 100, 84, 100, 95]
+    }
+  ]
+},
+
+{
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS05'
+  },
+
+  records: [
+    {
+      buildings: [
+        "TYPE - 2",
+        "TYPE - 3",
+        "TYPE - 4",
+        "TOTAL"
+      ],
+      totalRooms:       [16, 72, 7, 95],
+      occupiedRooms:    [16, 72, 7, 95],
+      vacantRooms:      [0, 0, 0, 0],
+      occupancyPercent: [100, 100, 100, 100]
+    }
+  ]
+},
 ]

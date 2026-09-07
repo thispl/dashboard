@@ -766,6 +766,316 @@ records: [
 ]
 
 },
+{
 
 
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS10'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "2056",
+    },
+]
+
+},
+
+    {
+
+
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS06'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "2003",
+    },
+]
+
+},
+    {
+
+
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS03'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "2997",
+    },
+]
+
+},
+    {
+
+
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS01'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "1529",
+    },
+]
+
+},
+    {
+
+
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PRS1'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "915",
+    },
+]
+
+},
+    {
+
+
+    meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS05'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "659",
+    },
+]
+
+},
+{
+
+    meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS06'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "2068",
+    },
+]
+
+},
+
+{
+    meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS10'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "2072",
+    },
+]
+
+},
+
+{
+    meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS01'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "1194",
+    },
+]
+
+},
+
+{
+    meta: {
+    year: 2026,
+    month: "July",
+    site: 'PRS1'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "930",
+    },
+]
+
+},
+
+
+{
+    meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS03'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "3790",
+    },
+]
+
+},
+
+{
+    meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS05'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "705",
+    },
+]
+
+},
+
+{
+    meta: {
+    year: 2026,
+    month: "August",
+    site: 'PS10'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "1920",
+    },
+]
+
+},
+
+
+{
+    meta: {
+    year: 2026,
+    month: "August",
+    site: 'PS06'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "2315",
+    },
+]
+
+},
+
+{
+    meta: {
+    year: 2026,
+    month: "August",
+    site: 'PRS1'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "1517",
+    },
+]
+
+},
+{
+    meta: {
+    year: 2026,
+    month: "August",
+    site: 'PS05'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "750",
+    },
+]
+
+},
+{
+    meta: {
+    year: 2026,
+    month: "August",
+    site: 'PS03'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "3720",
+    },
+]
+
+},
+{
+    meta: {
+    year: 2026,
+    month: "August",
+    site: 'PS01'
+  },
+
+records: [
+
+    {
+        name: 'Laundry',
+        data: "1351",
+    },
+]
+
+},
 ]    

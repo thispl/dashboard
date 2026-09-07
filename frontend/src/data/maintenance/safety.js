@@ -336,6 +336,126 @@ export default [
 
 },
 //PS05 no data
+{
+
+    
+     meta: {
+    year: 2026,
+    month: "June",
+    site: 'PS10'
+  }, 
+
+    records:[{
+  series: [ 0,0,0,0,0,0,0,2,0,0 ],
+
+  labels: [
+    "Fatal",
+    "Permanent Total Disabilities",
+    "Permanent Partial Disabilities",
+    "Lost Workday Cases",
+    "Restricted Workday Cases",
+    "Medical Treatment Cases",
+    "First Aid Cases",
+    "Near Miss",
+    "Lost Workdays",
+    "Restricted Workdays"
+  ]
+  }]
+
+},
+
+//PS03 no data
+//PS06 no data
+//PS01 no data
+{
+
+    
+     meta: {
+    year: 2026,
+    month: "June",
+    site: 'PRS1'
+  }, 
+
+    records:[{
+  series: [ 0,0,0,0,0,0,0,1,0,0 ],
+
+  labels: [
+    "Fatal",
+    "Permanent Total Disabilities",
+    "Permanent Partial Disabilities",
+    "Lost Workday Cases",
+    "Restricted Workday Cases",
+    "Medical Treatment Cases",
+    "First Aid Cases",
+    "Near Miss",
+    "Lost Workdays",
+    "Restricted Workdays"
+  ]
+  }]
+
+},
+//PS05 no data
+
+
+ //PS06 no data -July
+
+ {
+
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PS10'
+  },
+
+  records: [{
+    series: [ 0, 0, 0, 0, 0, 0, 0, 2, 0, 0 ],
+
+    labels: [
+      "Fatal",
+      "Permanent Total Disabilities",
+      "Permanent Partial Disabilities",
+      "Lost Workday Cases",
+      "Restricted Workday Cases",
+      "Medical Treatment Cases",
+      "First Aid Cases",
+      "Near Miss",
+      "Lost Workdays",
+      "Restricted Workdays"
+    ]
+  }]
+
+},
+
+//PS01 no data
+//PS03 no data
+//PS05 no data
+
+ {
+
+  meta: {
+    year: 2026,
+    month: "July",
+    site: 'PRS1'
+  },
+
+  records: [{
+    series: [ 0, 0, 0, 0, 0, 0, 0, 3, 0, 0 ],
+
+    labels: [
+      "Fatal",
+      "Permanent Total Disabilities",
+      "Permanent Partial Disabilities",
+      "Lost Workday Cases",
+      "Restricted Workday Cases",
+      "Medical Treatment Cases",
+      "First Aid Cases",
+      "Near Miss",
+      "Lost Workdays",
+      "Restricted Workdays"
+    ]
+  }]
+
+},
 
 
 ]

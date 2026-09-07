@@ -1579,5 +1579,598 @@ export default [
             }
         ]
     },
+{
 
+        meta: {
+            year: 2026,
+            month: "June",
+            site: 'PS10'
+        },
+
+
+        records: [
+    {
+        name: 'Service Quality',
+        data: [4.75, 5.00, 5.00, 4.86],
+    },
+    {
+        name: 'Technical Service Quality',
+        data: [4.75, 5.00, 4.88, 4.71],
+    },
+    {
+        name: 'Food Quality',
+        data: [4.88, 4.13, 4.13, 4.86],
+    },
+    {
+        name: 'Restaurant Employees Service Quality',
+        data: [4.88, 4.13, 4.50, 4.71],
+    },
+    {
+        name: 'Laundry Service Quality',
+        color: '#9b5cf6',
+        data: [4.88, 4.50, 4.63, 3.86],
+    },
+]
+    },
+    {
+
+        meta: {
+            year: 2026,
+            month: "June",
+            site: 'PS06'
+        },
+
+
+        records: [
+    {
+        name: 'Service Quality',
+        data: [5, 5, 4, 5],
+    },
+    {
+        name: 'Technical Service Quality',
+        data: [4, 5, 5, 5],
+    },
+    {
+        name: 'Food Quality',
+        data: [5, 5, 4, 5],
+    },
+    {
+        name: 'Restaurant Employees Service Quality',
+        data: [5, 5, 5, 5],
+    },
+    {
+        name: 'Laundry Service Quality',
+        color: '#9b5cf6',
+        data: [4, 5, 4, 5],
+    },
+]
+    },
+
+    {
+
+        meta: {
+            year: 2026,
+            month: "June",
+            site: 'PS03'
+        },
+
+
+        records: [
+    {
+        name: 'Service Quality',
+        data: [4.25, 4, 4.25, 4.5],
+    },
+    {
+        name: 'Technical Service Quality',
+        data: [4, 4, 4, 4.5],
+    },
+    {
+        name: 'Food Quality',
+        data: [3.75, 4, 3.75, 4.25],
+    },
+    {
+        name: 'Restaurant Employees Service Quality',
+        data: [4, 4, 4.5, 5],
+    },
+    {
+        name: 'Laundry Service Quality',
+        color: '#9b5cf6',
+        data: [3.5, 4, 3.75, 4],
+    },
+]
+    },
+
+    {
+
+        meta: {
+            year: 2026,
+            month: "June ",
+            site: 'PS01'
+        },
+
+
+        records:[
+    {
+        name: 'Service Quality',
+        data: [5, 5, 5, 5],
+    },
+    {
+        name: 'Technical Service Quality',
+        data: [5, 5, 5, 5],
+    },
+    {
+        name: 'Food Quality',
+        data: [5, 5, 5, 5],
+    },
+    {
+        name: 'Restaurant Employees Service Quality',
+        data: [5, 5, 5, 5],
+    },
+    {
+        name: 'Laundry Service Quality',
+        color: '#9b5cf6',
+        data: [5, 4, 4, 5],
+    },
+]
+    },
+
+
+    {
+
+        meta: {
+            year: 2026,
+            month: "June",
+            site: 'PRS1'
+        },
+
+
+        records: [
+    {
+        name: 'Service Quality',
+        data: [5, 4, 5, 5],
+    },
+    {
+        name: 'Technical Service Quality',
+        data: [5, 4, 5, 5],
+    },
+    {
+        name: 'Food Quality',
+        data: [5, 4, 3, 5],
+    },
+    {
+        name: 'Restaurant Employees Service Quality',
+        data: [5, 4, 4, 5],
+    },
+    {
+        name: 'Laundry Service Quality',
+        color: '#9b5cf6',
+        data: [5, 4, 4, 5],
+    },
+]
+    },
+
+    {
+
+        meta: {
+            year: 2026,
+            month: "June",
+            site: 'PS05'
+        },
+
+
+        records: [
+    {
+        name: 'Service Quality',
+        data: [5, 5, 5, 5],
+    },
+    {
+        name: 'Technical Service Quality',
+        data: [2, 5, 5, 5],
+    },
+    {
+        name: 'Food Quality',
+        data: [2, 2, 2, 5],
+    },
+    {
+        name: 'Restaurant Employees Service Quality',
+        data: [5, 2, 5, 5],
+    },
+    {
+        name: 'Laundry Service Quality',
+        color: '#9b5cf6',
+        data: [2, 5, 4, 4],
+    },
+]
+    },
+
+    {
+
+        meta: {
+            year: 2026,
+            month: "July",
+            site: 'PS06'
+        },
+
+
+        records: [
+    {
+        name: 'Service Quality',
+        data: [4, 4, 4, 5],
+    },
+    {
+        name: 'Technical Service Quality',
+        data: [4, 4, 4, 5],
+    },
+    {
+        name: 'Food Quality',
+        data: [0, 0, 0, 0],
+    },
+    {
+        name: 'Restaurant Employees Service Quality',
+        data: [0, 0, 0, 0],
+    },
+    {
+        name: 'Laundry Service Quality',
+        color: '#9b5cf6',
+        data: [0, 0, 0, 0],
+    },
+]
+    },
+
+{
+
+    meta: {
+        year: 2026,
+        month: "July",
+        site: 'PS10'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [4.88, 4.88, 4.63, 4.50],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [5.00, 4.50, 4.38, 4.50],
+        },
+        {
+            name: 'Food Quality',
+            data: [4.50, 4.00, 4.50, 4.33],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [4.63, 4.25, 4.38, 4.33],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [4.63, 4.00, 4.63, 4.17],
+        },
+    ]
+},
+
+{
+
+    meta: {
+        year: 2026,
+        month: "July",
+        site: 'PS01'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [5, 5, 5, 5],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [5, 5, 5, 5],
+        },
+        {
+            name: 'Food Quality',
+            data: [5, 5, 5, 5],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [5, 4, 4, 5],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [4, 4, 4, 4],
+        },
+    ]
+},
+
+{
+
+    meta: {
+        year: 2026,
+        month: "July",
+        site: 'PRS1'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [5, 4, 5, 5],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [5, 4, 5, 5],
+        },
+        {
+            name: 'Food Quality',
+            data: [5, 4, 5, 5],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [5, 4, 5, 5],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [5, 4, 5, 5],
+        },
+    ]
+},
+
+{
+
+    meta: {
+        year: 2026,
+        month: "July",
+        site: 'PS03'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [4, 5, 4, 4],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [4, 4, 4, 4],
+        },
+        {
+            name: 'Food Quality',
+            data: [4, 4, 4, 4],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [5, 5, 5, 5],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [4, 4, 4, 4],
+        },
+    ]
+},
+
+{
+    meta: {
+        year: 2026,
+        month: "July",
+        site: 'PS05'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [5, 5, 4, 5],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [5, 5, 5, 5],
+        },
+        {
+            name: 'Food Quality',
+            data: [5, 5, 4, 5],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [5, 5, 5, 5],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [5, 5, 4, 5],
+        },
+    ]
+},
+
+{
+    meta: {
+        year: 2026,
+        month: "August",
+        site: 'PS10'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [4.60, 4.10, 4.40, 5.00],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [4.60, 4.30, 4.40, 5.00],
+        },
+        {
+            name: 'Food Quality',
+            data: [4.60, 4.20, 4.40, 5.00],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [4.60, 4.20, 4.40, 5.00],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [4.60, 3.80, 4.10, 5.00],
+        },
+    ]
+},
+
+{
+    meta: {
+        year: 2026,
+        month: "August",
+        site: 'PS06'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [5, 3, 5, 5],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [5, 3, 5, 5],
+        },
+        {
+            name: 'Food Quality',
+            data: [0, 1, 0, 0],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [0, 1, 0, 0],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [0, 0, 0, 0],
+        },
+    ]
+},
+
+{
+    meta: {
+        year: 2026,
+        month: "August",
+        site: 'PRS1'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [5, 4, 5, 5],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [5, 4, 5, 5],
+        },
+        {
+            name: 'Food Quality',
+            data: [5, 3, 5, 5],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [5, 4, 5, 5],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [5, 3, 5, 5],
+        },
+    ]
+},
+
+{
+    meta: {
+        year: 2026,
+        month: "August",
+        site: 'PS05'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [4, 3, 5, 5, 5],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [5, 3, 5, 5, 5],
+        },
+        {
+            name: 'Food Quality',
+            data: [4, 3, 3, 4, 5],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [4, 3, 5, 4, 5],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [4, 4, 5, 5, 5],
+        },
+    ]
+},
+
+{
+    meta: {
+        year: 2026,
+        month: "August",
+        site: 'PS03'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [4, 5, 4, 4],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [4, 4, 4, 4],
+        },
+        {
+            name: 'Food Quality',
+            data: [4, 4, 4, 4],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [5, 5, 5, 5],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [4, 4, 4, 4],
+        },
+    ]
+
+},
+
+{
+    meta: {
+        year: 2026,
+        month: "August",
+        site: 'PS01'
+    },
+
+    records: [
+        {
+            name: 'Service Quality',
+            data: [5, 5, 5, 5],
+        },
+        {
+            name: 'Technical Service Quality',
+            data: [5, 5, 5, 5],
+        },
+        {
+            name: 'Food Quality',
+            data: [4, 4, 4, 5],
+        },
+        {
+            name: 'Restaurant Employees Service Quality',
+            data: [5, 4, 4, 4],
+        },
+        {
+            name: 'Laundry Service Quality',
+            color: '#9b5cf6',
+            data: [4, 4, 3, 4],
+        },
+    ]
+},
 ]
