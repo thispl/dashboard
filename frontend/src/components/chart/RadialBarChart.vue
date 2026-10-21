@@ -10,7 +10,6 @@
 <script>
 import VueApexCharts from "vue3-apexcharts";
 import { ref } from "vue";
-import radialData from "@/data/maintenance/pmi_overall.js";
 
 export default {
   components: { apexchart: VueApexCharts },
@@ -118,7 +117,6 @@ export default {
 <script>
 import VueApexCharts from "vue3-apexcharts";
 import { ref } from "vue";
-import radialData from "@/data/maintenance/pmi_overall.js";
 
 export default {
   components: { apexchart: VueApexCharts },

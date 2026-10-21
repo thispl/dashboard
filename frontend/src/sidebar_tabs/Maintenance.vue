@@ -502,7 +502,6 @@
     import HeatMapChart from '@/components/chart/HeatMapChart.vue';
     import SlopeChart from '@/components/chart/SlopeChart.vue';
     import StackedBarChart from '@/components/chart/StackedBarChart.vue';
-    import RadialBarChart from '@/components/chart/RadialBarChart.vue';
     import DashedLineChart from '@/components/chart/DashedLineChart.vue';
     import SlopeChartBasic from '@/components/chart/SlopeChartBasic.vue';
     import StackedAreaChart from '@/components/chart/StackedAreaChart.vue';
@@ -533,7 +532,6 @@
     import cateringLaundryData from '@/data/maintenance/catering_laundry_service.js';
     import laundryData from '@/data/maintenance/laundry.js';
     import overallSchvsAccData from '@/data/maintenance/overall_scheduled_vs_accomplished.js';
-    import pmiOverall from '@/data/maintenance/pmi_overall.js';
     import waterConsumption from '@/data/maintenance/water_consumption.js';
     import gasolineConsumption from '@/data/maintenance/gasoline_consumption.js';
     import safetyData from '@/data/maintenance/safety.js';
@@ -625,7 +623,6 @@
                 cateringLaundryData,
                 laundryData,
                 overallSchvsAccData,
-                pmiOverall,
                 waterConsumption,
                 gasolineConsumption,
                 safetyData,
@@ -657,7 +654,6 @@
             HeatMapChart,
             SlopeChart,
             StackedBarChart,
-            RadialBarChart,
             DashedLineChart,
             SlopeChartBasic,
             StackedAreaChart,
