@@ -21,6 +21,23 @@ import julyOrgChartPS05 from '@/assets/icons/PS 05-Org_july-2026.jpg'
 import julyOrgChartPS01 from '@/assets/icons/PS 01-Org_july-2026.jpg'
 import julyOrgChartPRS1 from '@/assets/icons/PRS1-Org_july-2026.jpg'
 
+//august 2026
+import augustOrgChartPS10 from '@/assets/icons/PS10-Org_august-2026.jpg';
+import augustOrgChartPS03 from '@/assets/icons/PS 03-Org_august-2026.jpg'
+import augustOrgChartPS06 from '@/assets/icons/PS 06-Org_august-2026.jpg'
+import augustOrgChartPS05 from '@/assets/icons/PS 05-Org_august-2026.jpg'
+import augustOrgChartPS01 from '@/assets/icons/PS 01-Org_august-2026.jpg'
+import augustOrgChartPRS1 from '@/assets/icons/PRS1-Org_august-2026.jpg'
+
+//september 2026
+import septemberOrgChartPS10 from '@/assets/icons/PS10-Org_september-2026.jpg';
+import septemberOrgChartPS03 from '@/assets/icons/PS 03-Org_september-2026.jpg'
+import septemberOrgChartPS06 from '@/assets/icons/PS 06-Org_september-2026.jpg'
+import septemberOrgChartPS05 from '@/assets/icons/PS 05-Org_september-2026.jpg'
+import septemberOrgChartPS01 from '@/assets/icons/PS 01-Org_september-2026.jpg'
+import septemberOrgChartPRS1 from '@/assets/icons/PRS1-Org_september-2026.jpg'
+
+
 // export default[
 
 
@@ -866,5 +883,180 @@ export default [
     }]
 
   },
+
+  //august
+
+  {
+
+    meta: {
+      year: 2026,
+      month: "August",
+      site: 'PS10'
+    },
+
+
+    records: [{
+      url: augustOrgChartPS10
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "August",
+      site: 'PS06'
+    },
+
+
+    records: [{
+      url: augustOrgChartPS06
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "August",
+      site: 'PS03'
+    },
+
+
+    records: [{
+      url: augustOrgChartPS03
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "August",
+      site: 'PS01'
+    },
+
+
+    records: [{
+      url: augustOrgChartPS01
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "August",
+      site: 'PRS1'
+    },
+
+
+    records: [{
+      url: augustOrgChartPRS1
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "August",
+      site: 'PS05'
+    },
+
+
+    records: [{
+      url: augustOrgChartPS05
+    }]
+
+  },
+
+  //september
+
+  {
+
+    meta: {
+      year: 2026,
+      month: "September",
+      site: 'PS10'
+    },
+
+
+    records: [{
+      url: septemberOrgChartPS10
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "September",
+      site: 'PS06'
+    },
+
+
+    records: [{
+      url: septemberOrgChartPS06
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "September",
+      site: 'PS03'
+    },
+
+
+    records: [{
+      url: septemberOrgChartPS03
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "September",
+      site: 'PS01'
+    },
+
+
+    records: [{
+      url: septemberOrgChartPS01
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "September",
+      site: 'PRS1'
+    },
+
+
+    records: [{
+      url: septemberOrgChartPRS1
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "September",
+      site: 'PS05'
+    },
+
+
+    records: [{
+      url: septemberOrgChartPS05
+    }]
+
+  },
+
 
 ]
