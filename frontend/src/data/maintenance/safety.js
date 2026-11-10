@@ -519,4 +519,58 @@ export default [
   //PRS1 no data
   //PS05 no data
   //PS06 no data
+  
+  //PS03 no data
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PRS1'
+    },
+
+    records: [{
+      series: [0, 0, 0, 0, 0, 0, 0, 2, 0, 0],
+
+      labels: [
+        "Fatal",
+        "Permanent Total Disabilities",
+        "Permanent Partial Disabilities",
+        "Lost Workday Cases",
+        "Restricted Workday Cases",
+        "Medical Treatment Cases",
+        "First Aid Cases",
+        "Near Miss",
+        "Lost Workdays",
+        "Restricted Workdays"
+      ]
+    }]
+  },
+  //PS06 no data
+  //PS10 no data
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS05'
+    },
+
+    records: [{
+      series: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+
+      labels: [
+        "Fatal",
+        "Permanent Total Disabilities",
+        "Permanent Partial Disabilities",
+        "Lost Workday Cases",
+        "Restricted Workday Cases",
+        "Medical Treatment Cases",
+        "First Aid Cases",
+        "Near Miss",
+        "Lost Workdays",
+        "Restricted Workdays"
+      ]
+    }]
+  },
+  //PS01 no data
+  
 ]

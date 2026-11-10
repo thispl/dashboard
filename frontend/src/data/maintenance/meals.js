@@ -1610,4 +1610,154 @@ export default [
       }
     ]
   },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS03'
+    },
+
+    records: [
+      {
+        meal: 'Breakfast',
+        count: 2783
+
+      },
+      {
+        meal: 'Lunch',
+        count: 3465
+
+      },
+      {
+        meal: 'Dinner',
+        count: 5589
+
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PRS1'
+    },
+
+    records: [
+      {
+        meal: 'Breakfast',
+        count: 1187
+
+      },
+      {
+        meal: 'Lunch',
+        count: 1752
+
+      },
+      {
+        meal: 'Dinner',
+        count: 1245
+
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS06'
+    },
+
+    records: [
+      {
+        meal: 'Breakfast',
+        count: 3748
+
+      },
+      {
+        meal: 'Lunch',
+        count: 3628
+
+      },
+      {
+        meal: 'Dinner',
+        count: 3875
+
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS10'
+    },
+
+    records: [
+      {
+        meal: 'Breakfast',
+        count: 1109
+
+      },
+      {
+        meal: 'Lunch',
+        count: 2366
+
+      },
+      {
+        meal: 'Dinner',
+        count: 3013
+
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS05'
+    },
+
+    records: [
+      {
+        meal: 'Breakfast',
+        count: 1118
+
+      },
+      {
+        meal: 'Lunch',
+        count: 1609
+
+      },
+      {
+        meal: 'Dinner',
+        count: 1570
+
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS01'
+    },
+
+    records: [
+      {
+        meal: 'Breakfast',
+        count: 647
+
+      },
+      {
+        meal: 'Lunch',
+        count: 1162
+
+      },
+      {
+        meal: 'Dinner',
+        count: 1188
+
+      }
+    ]
+  },
 ]

@@ -1194,4 +1194,92 @@ export default [
     }]
 
   },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS03'
+    },
+
+    records: [{
+      topics: [
+        "General Food Safety",
+        "Personal Hygiene",
+        "Chemical Handling",
+        "General Site Safety",
+        "Personal Hygiene",
+        "Basic Spill Clean-Up Safety Procedures",
+        "Cross Contamination",
+        "Good Hygiene Practice",
+        "Waste Management",
+        "The Importance of Personal Protective Equipment (PPE)",
+        "Safety Maintainance",
+        "General Site Safety Induction",
+        "Food Safety",
+        "Contamination Prevention",
+        "General Safety Induction",
+        "Cleaning and Sanitization"
+      ],
+
+      applicable: [
+        5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 20, 0, 0, 0
+      ],
+
+      actual: [
+        5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 20, 0, 0, 0
+      ],
+
+      percent: [
+        100, 100, 100, 100, 100, 100, 100, 100,
+        100, 100, 100, 100, 100, 100, 100, 100
+      ]
+    }]
+  },
+  //PRS1 october 2026 doesn't have value
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS06'
+    },
+
+    records: [{
+      topics: [
+        "General Food Safety",
+        "Personal Hygiene",
+        "Chemical Handling",
+        "General Site Safety",
+        "Basic Spill Clean-Up Safety Procedures",
+        "Cross Contamination",
+        "Good Hygiene Practice",
+        "Waste Management",
+        "The Importance of Personal Protective Equipment (PPE)",
+        "Safety Maintenance",
+        "",
+        "General Site Safety Induction",
+        "Food Safety",
+        "Contamination Prevention",
+        "General Safety Induction",
+        "Cleaning and Sanitization"
+      ],
+
+      applicable: [
+        0, 0, 0, 18.00, 0, 0, 0, 0,
+        0, 18.00, 18.00, 18.00, 0, 0, 0, 0
+      ],
+
+      actual: [
+        0, 0, 0, 18.00, 0, 0, 0, 0,
+        0, 18.00, 18.00, 18.00, 0, 0, 0, 0
+      ],
+
+      percent: [
+        100, 100, 100, 100, 100, 100, 100, 100,
+        100, 100, 100, 100, 100, 100, 100, 100
+      ]
+    }]
+  },
+  //PS10 october 2026 doesn't have value
+  //PS05 october 2026 doesn't have value
+  //PS01 october 2026 doesn't have value
 ]
