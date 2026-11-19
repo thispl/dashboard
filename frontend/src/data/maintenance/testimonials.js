@@ -21706,7 +21706,7 @@ export default [
             site: 'PS06'
         },
 
-        records:[
+        records: [
             {
                 resident_name: "Bassam",
                 room_no: "6101-316",
@@ -21929,7 +21929,7 @@ export default [
                 }
             },
             {
-                resident_name: "1602 building number",
+                resident_name: "Al Marshad",
                 room_no: "6102-339",
                 ratings: {
                     employee_responsiveness: "Excellent",
@@ -22042,7 +22042,7 @@ export default [
             site: 'PS10'
         },
 
-        records:[
+        records: [
             {
                 resident_name: "Nedhal Khayyat",
                 room_no: "334",
@@ -22413,7 +22413,7 @@ export default [
             site: 'PS05'
         },
 
-                records:[
+        records: [
             {
                 resident_name: "Faisal Al Qahtani",
                 room_no: "136",
@@ -22712,7 +22712,7 @@ export default [
             site: 'PS01'
         },
 
-                records:[
+        records: [
             {
                 resident_name: "Hassan",
                 room_no: "106",

@@ -37,6 +37,14 @@ import septemberOrgChartPS05 from '@/assets/icons/PS 05-Org_september-2026.jpg'
 import septemberOrgChartPS01 from '@/assets/icons/PS 01-Org_september-2026.jpg'
 import septemberOrgChartPRS1 from '@/assets/icons/PRS1-Org_september-2026.jpg'
 
+//october 2026
+import octoberOrgChartPS10 from '@/assets/icons/PS10-Org_october-2026.jpg';
+import octoberOrgChartPS03 from '@/assets/icons/PS 03-Org_october-2026.jpg'
+import octoberOrgChartPS06 from '@/assets/icons/PS 06-Org_october-2026.jpg'
+import octoberOrgChartPS05 from '@/assets/icons/PS 05-Org_october-2026.jpg'
+import octoberOrgChartPS01 from '@/assets/icons/PS 01-Org_october-2026.jpg'
+import octoberOrgChartPRS1 from '@/assets/icons/PRS1-Org_october-2026.jpg'
+
 
 // export default[
 
@@ -1057,6 +1065,94 @@ export default [
     }]
 
   },
+
+  //october
+
+  {
+
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS10'
+    },
+
+
+    records: [{
+      url: octoberOrgChartPS10
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS06'
+    },
+
+
+    records: [{
+      url: octoberOrgChartPS06
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS03'
+    },
+
+
+    records: [{
+      url: octoberOrgChartPS03
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS01'
+    },
+
+
+    records: [{
+      url: octoberOrgChartPS01
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PRS1'
+    },
+
+
+    records: [{
+      url: octoberOrgChartPRS1
+    }]
+
+  },
+  {
+
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS05'
+    },
+
+
+    records: [{
+      url: octoberOrgChartPS05
+    }]
+
+  },
+
 
 
 ]
