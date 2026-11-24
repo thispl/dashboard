@@ -394,8 +394,17 @@
                     <FlowChart :chartData="OrganisationChartData"  />
                 </div> -->
 
-					<div v-if="orgUrlDataFiltered.length" class="p-5">
-						<img v-if="orgUrlDataFiltered.length" :src="orgUrlDataFiltered[0].url" />
+					<div v-if="orgUrlDataFiltered.length" class="p-5 flex justify-center">
+						<div
+							v-if="svgContent"
+							v-html="svgContent"
+							class="w-full flex justify-center [&>svg]:max-w-full [&>svg]:h-auto [&>svg]:mx-auto"
+						></div>
+						<img
+							v-else
+							:src="orgUrlDataFiltered[0].url"
+							class="max-w-full h-auto mx-auto object-contain"
+						/>
 					</div>
 					<div v-else class="text-center mt-5 text-gray-500">
 						No data available for selected filters.
@@ -411,7 +420,7 @@
 </template>
 
 <script>
-import { computed } from "vue";
+import { computed, ref, watch } from "vue";
 import { useLiveFilterStore } from "@/stores/liveFilterStore";
 
 import PercentageCard from "@/components/PercentageCard.vue";
@@ -519,6 +528,35 @@ export default {
 			liveFilterStore.getDataset("organisation_chart_links")
 		);
 
+		const svgContent = ref("");
+
+		const loadSvg = async (url) => {
+			if (!url) {
+				svgContent.value = "";
+				return;
+			}
+			if (url.toLowerCase().endsWith(".svg")) {
+				try {
+					const res = await fetch(url);
+					if (res.ok) {
+						svgContent.value = await res.text();
+						return;
+					}
+				} catch (e) {
+					console.error("Failed to load SVG content:", e);
+				}
+			}
+			svgContent.value = "";
+		};
+
+		watch(
+			() => (orgUrlDataFiltered.value && orgUrlDataFiltered.value.length ? orgUrlDataFiltered.value[0].url : null),
+			(newUrl) => {
+				loadSvg(newUrl);
+			},
+			{ immediate: true }
+		);
+
 		return {
 			overallSchvsAccDataFiltered,
 			cmOverallDataFiltered,
@@ -533,6 +571,7 @@ export default {
 			sewageWaterDataFiltered,
 			TotalActivitiesDataFiltered,
 			orgUrlDataFiltered,
+			svgContent,
 		};
 	},
 	data() {
