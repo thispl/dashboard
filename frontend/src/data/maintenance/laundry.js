@@ -1174,4 +1174,100 @@ export default [
         ]
 
     },
+    {
+        meta: {
+            year: 2026,
+            month: "October",
+            site: 'PS03'
+        },
+
+        records: [
+
+            {
+                name: 'Laundry',
+                data: "3783",
+            },
+        ]
+
+    },
+    {
+        meta: {
+            year: 2026,
+            month: "October",
+            site: 'PRS1'
+        },
+
+        records: [
+
+            {
+                name: 'Laundry',
+                data: "1042",
+            },
+        ]
+
+    },
+    {
+        meta: {
+            year: 2026,
+            month: "October",
+            site: 'PS06'
+        },
+
+        records: [
+
+            {
+                name: 'Laundry',
+                data: "3720",
+            },
+        ]
+
+    },
+    {
+        meta: {
+            year: 2026,
+            month: "October",
+            site: 'PS10'
+        },
+
+        records: [
+
+            {
+                name: 'Laundry',
+                data: "2526",
+            },
+        ]
+
+    },
+    {
+        meta: {
+            year: 2026,
+            month: "October",
+            site: 'PS05'
+        },
+
+        records: [
+
+            {
+                name: 'Laundry',
+                data: "717",
+            },
+        ]
+
+    },
+    {
+        meta: {
+            year: 2026,
+            month: "October",
+            site: 'PS01'
+        },
+
+        records: [
+
+            {
+                name: 'Laundry',
+                data: "998",
+            },
+        ]
+
+    },
 ]    

@@ -53,7 +53,13 @@ def format_room_occupancy(doc):
     occupancy_percent = []
 
     for row in doc.occupancy_report:
-        buildings.append(row.building_number or "")
+        b_no = (row.building_number or "").strip()
+        b_type = (row.type_of_building or "").strip()
+        if b_type and b_type.lower() not in b_no.lower():
+            label = f"{b_no} - {b_type}"
+        else:
+            label = b_no
+        buildings.append(label)
         total_rooms.append(cint(row.total_rooms or 0))
         occupied_rooms.append(cint(row.occupied_rooms or 0))
         vacant_rooms.append(cint(row.vacant_rooms or 0))
@@ -165,7 +171,8 @@ def format_pm_overall(doc):
         "totals": {
             "Planned": str(total_planned),
             "Completed": str(total_completed)
-        }
+        },
+        "per": [round((c / p * 100), 2) if p else 0 for c, p in zip(completed, planned)]
     }]
 
 def format_cm_wr(rows):
@@ -186,16 +193,23 @@ def format_cm_wr(rows):
     total_sch = sum(scheduled)
     total_acc = sum(accomplished)
     rate = f"{(total_acc / total_sch * 100):.2f} %" if total_sch else "0 %"
+    tot_dict = {
+        "scheduled": total_sch,
+        "accomplished": total_acc,
+        "percentage": round((total_acc / total_sch * 100), 2) if total_sch else 0
+    }
+    totals_dict = {
+        "scheduled": str(total_sch),
+        "accomplished": str(total_acc)
+    }
     return [{
         "subjects": subjects,
         "scheduled": scheduled,
         "accomplished": accomplished,
         "percentage": percentage,
         "completion_rate": rate,
-        "totals": {
-            "scheduled": str(total_sch),
-            "accomplished": str(total_acc)
-        }
+        "totals": totals_dict,
+        "total": tot_dict
     }]
 
 def format_meals(doc):
@@ -573,3 +587,166 @@ def get_test_chart_data(site=None, month=None, year=None, chart_type=None):
         return {"status": "success", "doc_name": doc.name, "data": data}
 
     return {"status": "error", "message": f"Unsupported chart type: {chart_type}", "data": None}
+
+
+def format_service_feedback(doc):
+    if not doc or not getattr(doc, "resident_satisfaction_survey", None):
+        return []
+    target_names = {
+        "responsiveness": "Employees Responsiveness",
+        "front desk": "Front Desk Employee",
+        "room service": "Room Service",
+        "professionalism": "Employees Professionalism",
+        "cleanliness": "Cleanliness of the Room",
+        "taste": "Taste of the food"
+    }
+    records = []
+    for row in doc.resident_satisfaction_survey:
+        attr = (row.attribute or "").strip()
+        attr_lower = attr.lower()
+        matched_name = None
+        for key, name in target_names.items():
+            if key in attr_lower:
+                matched_name = name
+                break
+        if matched_name:
+            records.append({
+                "name": matched_name,
+                "data": [
+                    round(flt(row.week_1 or 0), 2),
+                    round(flt(row.week_2 or 0), 2),
+                    round(flt(row.week_3 or 0), 2),
+                    round(flt(row.week_4 or 0), 2)
+                ]
+            })
+    return records
+
+
+def format_quality_feedback(doc):
+    if not doc or not getattr(doc, "resident_satisfaction_survey", None):
+        return []
+    target_names = {
+        "technical": "Technical Service Quality",
+        "food quality": "Food Quality",
+        "restaurant": "Restaurant employees service Quality",
+        "laundry": "Laundry Service Quality",
+        "service quality": "Service Quality",
+    }
+    records = []
+    for row in doc.resident_satisfaction_survey:
+        attr = (row.attribute or "").strip()
+        attr_lower = attr.lower()
+        matched_name = None
+        for key, name in target_names.items():
+            if key in attr_lower:
+                matched_name = name
+                break
+        if matched_name:
+            records.append({
+                "name": matched_name,
+                "data": [
+                    round(flt(row.week_1 or 0), 2),
+                    round(flt(row.week_2 or 0), 2),
+                    round(flt(row.week_3 or 0), 2),
+                    round(flt(row.week_4 or 0), 2)
+                ]
+            })
+    return records
+
+
+def format_testimonials(doc):
+    if not doc or not getattr(doc, "customer_satisfaction_survey", None):
+        return []
+    records = []
+    for row in doc.customer_satisfaction_survey:
+        records.append({
+            "resident_name": row.resident_name or "",
+            "room_no": row.room_number or "",
+            "ratings": {
+                "employee_responsiveness": row.employees_responsiveness or "",
+                "front_desk_employee": row.rate_desk_employee or "",
+                "room_service_employee": row.room_service_employees or "",
+                "employee_professionalism": row.employees_professionalism or "",
+                "service_quality": row.service_quality or "",
+                "cleanliness_of_room": row.cleanliness_of_the_room or "",
+                "technical_service_quality": row.technical_service_quality or "",
+                "taste_of_food": row.taste_of_the_food or "",
+                "service": row.service or "",
+                "food_quality": row.food_quality or "",
+                "restaurant_employee_service_quality": row.restaurant_employees_service_quality or "",
+                "laundry_service_quality": row.laundry_service_quality or "",
+            }
+        })
+    return records
+
+
+def format_kpi_performance(doc):
+    if not doc or not getattr(doc, "kpi_title", None):
+        return []
+    kpis = []
+    for row in doc.kpi_title:
+        kpis.append({
+            "title": row.kpi_title or "",
+            "performanceMeasure": round(flt(row.performance_measure or 0), 2),
+            "achieved": round(flt(row.achieved or 0), 2)
+        })
+    return kpis
+
+
+@frappe.whitelist(allow_guest=True)
+def get_live_dashboard_data(site=None, month=None, year=None):
+    doc = get_mpd_doc(site, month, year)
+    if not doc:
+        return {
+            "status": "not_found",
+            "has_data": False,
+            "message": f"No Monthly Progress Data found for {site} - {month} {year}",
+            "doc_name": None,
+            "data": {}
+        }
+
+    room_occ = format_room_occupancy(doc)
+    return {
+        "status": "success",
+        "has_data": True,
+        "doc_name": doc.name,
+        "site": doc.site,
+        "posting_date": str(doc.posting_date),
+        "data": {
+            # Maintenance
+            "room_occupancy": [room_occ] if room_occ else [],
+            "room_occupancy_typewise": format_room_occupancy_typewise(doc) or [],
+            "monthwise_overall_pmi_cm_wr": format_monthwise_pmi_cm_wr(doc) or [],
+            "overall_scheduled_vs_accomplished": format_pm_overall(doc) or [],
+            "cm_overall_scheduled_accomplished": format_cm_wr(doc.cm) or [],
+            "wr_overall_schedule": format_cm_wr(doc.wr) or [],
+            "meals": format_meals(doc) or [],
+            "laundry": format_laundry(doc) or [],
+            "catering_laundry_service": format_catering_laundry_weekwise(doc) or [],
+            "service_feedback": format_service_feedback(doc) or [],
+            "quality_feedback": format_quality_feedback(doc) or [],
+            "testimonials": format_testimonials(doc) or [],
+
+            # Operations
+            "water_consumption": format_water_consumption(doc) or [],
+            "gasoline_consumption": format_gasoline(doc) or [],
+            "electricity_consumption": format_electricity(doc) or [],
+            "sewage_water_consumption": format_sewage(doc) or [],
+            "garbage_collection": format_garbage(doc) or [],
+
+            # HR
+            "kpi_performance_measure": format_kpi_performance(doc) or [],
+            "manpower_saudi_national": format_saudisation(doc) or [],
+            "manpower_summary": format_manpower_summary(doc) or [],
+            "manpower_details": format_manpower_details(doc) or [],
+
+            # Safety
+            "safety": format_safety(doc) or [],
+            "safety_and_environment": format_safety_environment(doc) or [],
+            "safety_training_on": format_safety_training(doc) or [],
+
+            # Management
+            "total_activities_done": format_total_activities(doc) or [],
+            "organisation_chart_links": [{"url": doc.organization_chart}] if getattr(doc, "organization_chart", None) else []
+        }
+    }

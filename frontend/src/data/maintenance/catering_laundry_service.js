@@ -1698,4 +1698,168 @@ export default [
 
   },
   //PS06 September 2026 data not available
+  
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS03'
+    },
+
+    records: [
+      {
+        name: 'Week 1',
+        data: [5, 5, 5, 5, 5]
+      },
+      {
+        name: 'Week 2',
+        data: [5, 5, 4, 5, 4]
+      },
+      {
+        name: 'Week 3',
+        data: [5, 5, 5, 5, 5]
+      },
+      {
+        name: 'Week 4',
+        data: [5, 4, 5, 4, 5]
+      }
+    ]
+
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PRS1'
+    },
+
+    records: [
+      {
+        name: 'Week 1',
+        data: [5, 4, 4, 5, 4]
+      },
+      {
+        name: 'Week 2',
+        data: [5, 5, 5, 5, 4]
+      },
+      {
+        name: 'Week 3',
+        data: [5, 5, 5, 5, 5]
+      },
+      {
+        name: 'Week 4',
+        data: [5, 5, 5, 5, 5]
+      }
+    ]
+
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS06'
+    },
+
+    records: [
+      {
+        name: 'Week 1',
+        data: [0, 0, 0, 0, 0]
+      },
+      {
+        name: 'Week 2',
+        data: [0, 0, 0, 0, 0]
+      },
+      {
+        name: 'Week 3',
+        data: [0, 0, 0, 0, 0]
+      },
+      {
+        name: 'Week 4',
+        data: [0, 0, 0, 0, 0]
+      }
+    ]
+
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS10'
+    },
+
+    records: [
+      {
+        name: 'Week 1',
+        data: [5, 5, 5, 5, 5]
+      },
+      {
+        name: 'Week 2',
+        data: [5, 4.9, 5, 5, 4.8]
+      },
+      {
+        name: 'Week 3',
+        data: [5, 5, 5, 5, 4.8]
+      },
+      {
+        name: 'Week 4',
+        data: [5, 4.9, 5, 5, 4.8]
+      }
+    ]
+
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS05'
+    },
+
+    records: [
+      {
+        name: 'Week 1',
+        data: [5, 5, 5, 5, 5]
+      },
+      {
+        name: 'Week 2',
+        data: [5, 5, 5, 5, 5]
+      },
+      {
+        name: 'Week 3',
+        data: [5, 5, 5, 5, 5]
+      },
+      {
+        name: 'Week 4',
+        data: [5, 5, 5, 5, 5]
+      }
+    ]
+
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS01'
+    },
+
+    records: [
+      {
+        name: 'Week 1',
+        data: [5, 4, 5, 4, 3]
+      },
+      {
+        name: 'Week 2',
+        data: [5, 4, 5, 3, 3]
+      },
+      {
+        name: 'Week 3',
+        data: [5, 5, 5, 4, 3]
+      },
+      {
+        name: 'Week 4',
+        data: [5, 5, 4, 4, 3]
+      }
+    ]
+
+  },
+
 ]

@@ -2599,6 +2599,228 @@ export default [
       }
     }]
   },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS03'
+    },
 
+    records: [{
+      categories: [
+        "Facility Manager",
+        "Maintenance Coordinator/Supervisor",
+        "Mechanical Supervisor",
+        "HVAC Supervisor",
+        "Electrical Supervisor",
+        "C3 Supervisor",
+        "Civil Supervisor",
+        "Housekeeping Supervisor",
+        "Others"
+      ],
+
+      series: [
+        {
+          name: "Indicative",
+          data: [1, 1, 0, 1, 1, 0, 1, 2, 151]
+        },
+        {
+          name: "Actual",
+          data: [1, 1, 0, 1, 1, 0, 1, 2, 154]
+        }
+      ],
+
+      totals: {
+        indicative: 158,
+        actual: 161
+      }
+    }]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PRS1'
+    },
+
+    records: [{
+      categories: [
+        "Facility Manager",
+        "Maintenance Coordinator/Supervisor",
+        "Mechanical Supervisor",
+        "HVAC Supervisor",
+        "Electrical Supervisor",
+        "C3 Supervisor",
+        "Civil Supervisor",
+        "Housekeeping Supervisor",
+        "Others"
+      ],
+
+      series: [
+        {
+          name: "Indicative",
+          data: [1, 0, 1, 0, 0, 0, 0, 1, 54]
+        },
+        {
+          name: "Actual",
+          data: [1, 0, 1, 0, 0, 0, 0, 1, 51]
+        }
+      ],
+
+      totals: {
+        indicative: 57,
+        actual: 54
+      }
+    }]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS06'
+    },
+
+    records: [{
+      categories: [
+        "Facility Manager",
+        "Maintenance Coordinator/Supervisor",
+        "Mechanical Supervisor",
+        "HVAC Supervisor",
+        "Electrical Supervisor",
+        "C3 Supervisor",
+        "Civil Supervisor",
+        "Housekeeping Supervisor",
+        "Others"
+      ],
+
+      series: [
+        {
+          name: "Indicative",
+          data: [1, 0, 1, 1, 1, 1, 1, 2, 98]
+        },
+        {
+          name: "Actual",
+          data: [1, 0, 1, 1, 1, 0, 0, 3, 100]
+        }
+      ],
+
+      totals: {
+        indicative: 106,
+        actual: 107
+      }
+    }]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS10'
+    },
+
+    records: [{
+      categories: [
+        "Facility Manager",
+        "Maintenance Coordinator/Supervisor",
+        "Mechanical Supervisor",
+        "HVAC Supervisor",
+        "Electrical Supervisor",
+        "C3 Supervisor",
+        "Civil Supervisor",
+        "Housekeeping Supervisor",
+        "Others"
+      ],
+
+      series: [
+        {
+          name: "Indicative",
+          data: [1, 0, 1, 1, 1, 1, 0, 2, 95]
+        },
+        {
+          name: "Actual",
+          data: [1, 0, 1, 1, 1, 1, 0, 2, 90]
+        }
+      ],
+
+      totals: {
+        indicative: 100,
+        actual: 95
+      }
+    }]
+  },
+
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS05'
+    },
+
+    records: [{
+      categories: [
+        "Facility Manager",
+        "Maintenance Coordinator/Supervisor",
+        "Mechanical Supervisor",
+        "HVAC Supervisor",
+        "Electrical Supervisor",
+        "C3 Supervisor",
+        "Civil Supervisor",
+        "Housekeeping Supervisor",
+        "Others"
+      ],
+
+      series: [
+        {
+          name: "Indicative",
+          data: [1, 1, 0, 0, 0, 0, 0, 1, 53]
+        },
+        {
+          name: "Actual",
+          data: [1, 1, 0, 0, 0, 0, 0, 1, 50]
+        }
+      ],
+
+      totals: {
+        indicative: 56,
+        actual: 53
+      }
+    }]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS01'
+    },
+
+    records: [{
+      categories: [
+        "Facility Manager",
+        "Maintenance Coordinator/Supervisor",
+        "Mechanical Supervisor",
+        "HVAC Supervisor",
+        "Electrical Supervisor",
+        "C3 Supervisor",
+        "Civil Supervisor",
+        "Housekeeping Supervisor",
+        "Others"
+      ],
+
+      series: [
+        {
+          name: "Indicative",
+          data: [1, 1, 0, 0, 0, 0, 0, 1, 57]
+        },
+        {
+          name: "Actual",
+          data: [1, 1, 0, 0, 0, 0, 0, 1, 56]
+        }
+      ],
+
+      totals: {
+        indicative: 60,
+        actual: 59
+      }
+    }]
+  }
 
 ]

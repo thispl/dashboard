@@ -9,11 +9,54 @@ import Warehouse from '@/sidebar_tabs/Warehouse.vue'
 import CustomerSLA from '@/sidebar_tabs/CustomerSLA.vue'
 import Operations from '@/sidebar_tabs/Operations.vue'
 
+// Live DB Test Views (for /test testing area)
+import TestDeskView from '@/views_test/TestDesk.vue'
+import TestManagement from '@/views_test/sidebar_tabs/Management.vue'
+import TestMaintenance from '@/views_test/sidebar_tabs/Maintenance.vue'
+import TestHR from '@/views_test/sidebar_tabs/HR.vue'
+import TestSafety from '@/views_test/sidebar_tabs/Safety.vue'
+import TestOperations from '@/views_test/sidebar_tabs/Operations.vue'
+
 const routes = [
   {
     path: '/test',
-    name: 'test',
-    component: TestView,
+    component: TestDeskView,
+    children: [
+      {
+        path: '',
+        redirect: '/test/management'
+      },
+      {
+        path: 'management',
+        name: 'test-management',
+        component: TestManagement,
+      },
+      {
+        path: 'maintenance',
+        name: 'test-maintenance',
+        component: TestMaintenance,
+      },
+      {
+        path: 'hr',
+        name: 'test-hr',
+        component: TestHR,
+      },
+      {
+        path: 'safety',
+        name: 'test-safety',
+        component: TestSafety,
+      },
+      {
+        path: 'operations',
+        name: 'test-operations',
+        component: TestOperations,
+      },
+      {
+        path: 'sandbox',
+        name: 'test-sandbox',
+        component: TestView,
+      }
+    ]
   },
   {
     path: '/',

@@ -1831,7 +1831,7 @@ export default [
     meta: {
       year: 2026,
       month: "September",
-      site: 'PS06 '
+      site: 'PS06'
     },
 
     records: [
@@ -1857,5 +1857,186 @@ export default [
         grand_total: 4048
       }
     ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS03'
+    },
+
+    records: [
+      {
+        month: "August",
+        PM: 6001,
+        CM: 526,
+        WR: 13,
+        grand_total: 6540
+      },
+      {
+        month: "September",
+        PM: 5468,
+        CM: 453,
+        WR: 22,
+        grand_total: 5943
+      },
+      {
+        month: "October",
+        PM: 6372,
+        CM: 392,
+        WR: 32,
+        grand_total: 6796
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PRS1'
+    },
+    records: [
+      {
+        month: "August",
+        PM: 2551,
+        CM: 68,
+        WR: 8,
+        grand_total: 2627
+      },
+      {
+        month: "September",
+        PM: 2011,
+        CM: 73,
+        WR: 8,
+        grand_total: 2092
+      },
+      {
+        month: "October",
+        PM: 2506,
+        CM: 103,
+        WR: 5,
+        grand_total: 2614
+      }
+    ]    
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS06'
+    },
+    records: [
+      {
+        month: "August",
+        PM: 5025,
+        CM: 186,
+        WR: 21,
+        grand_total: 5232
+      },
+      {
+        month: "September",
+        PM: 3863,
+        CM: 172,
+        WR: 13,
+        grand_total: 4048
+      },
+      {
+        month: "October",
+        PM: 4680,
+        CM: 165,
+        WR: 50,
+        grand_total: 4895
+      }
+    ]        
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS10'
+    },
+    records: [
+      {
+        month: "August",
+        PM: 5602,
+        CM: 96,
+        WR: 5,
+        grand_total: 5703
+      },
+      {
+        month: "September",
+        PM: 4240,
+        CM: 73,
+        WR: 7,
+        grand_total: 4320
+      },
+      {
+        month: "October",
+        PM: 5115,
+        CM: 67,
+        WR: 12,
+        grand_total: 5194
+      }
+    ]        
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS05'
+    },
+    records: [
+      {
+        month: "August",
+        PM: 3134,
+        CM: 75,
+        WR: 3,
+        grand_total: 3212
+      },
+      {
+        month: "September",
+        PM: 2219,
+        CM: 55,
+        WR: 9,
+        grand_total: 2283
+      },
+      {
+        month: "October",
+        PM: 2679,
+        CM: 62,
+        WR: 6,
+        grand_total: 2747
+      }
+    ]            
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS01'
+    },
+    records: [
+      {
+        month: "August",
+        PM: 3203,
+        CM: 75,
+        WR: 9,
+        grand_total: 3287
+      },
+      {
+        month: "September",
+        PM: 2235,
+        CM: 81,
+        WR: 4,
+        grand_total: 2320
+      },
+      {
+        month: "October",
+        PM: 2815,
+        CM: 99,
+        WR: 10,
+        grand_total: 2924
+      }
+    ]        
   },
 ];

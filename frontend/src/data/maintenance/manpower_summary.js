@@ -1346,4 +1346,130 @@ export default [
       }
     ]
   },
+  
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS03'
+    },
+
+    records: [
+      {
+        functions: [
+          "Site Management Staff",
+          "MEP Technical Staff",
+          "Housekeeping and Recreational Service Staff"
+        ],
+
+        indicative: [19, 39, 100],
+        actual: [19, 41, 101]
+      }
+    ]
+  },
+  
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PRS1'
+    },
+
+    records: [
+      {
+        functions: [
+          "Site Management Staff",
+          "MEP Technical Staff",
+          "Housekeeping and Recreational Service Staff"
+        ],
+
+        indicative: [9, 17, 31],
+        actual: [10, 17, 27]
+      }
+    ]
+  },
+  
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS06'
+    },
+
+    records: [
+      {
+        functions: [
+          "Site Management Staff",
+          "MEP Technical Staff",
+          "Housekeeping and Recreational Service Staff"
+        ],
+
+        indicative: [16, 30, 60],
+        actual: [16, 29, 62]
+      }
+    ]
+  },
+  
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS10'
+    },
+
+    records: [
+      {
+        functions: [
+          "Site Management Staff",
+          "MEP Technical Staff",
+          "Housekeeping and Recreational Service Staff"
+        ],
+
+        indicative: [16, 29, 55],
+        actual: [16, 27, 52]
+      }
+    ]
+  },
+  
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS05'
+    },
+
+    records: [
+      {
+        functions: [
+          "Site Management Staff",
+          "MEP Technical Staff",
+          "Housekeeping and Recreational Service Staff"
+        ],
+
+        indicative: [12, 17, 27],
+        actual: [12, 17, 24]
+      }
+    ]
+  },
+  
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS01'
+    },
+
+    records: [
+      {
+        functions: [
+          "Site Management Staff",
+          "MEP Technical Staff",
+          "Housekeeping and Recreational Service Staff"
+        ],
+
+        indicative: [9, 20, 31],
+        actual: [9, 19, 30]
+      }
+    ]
+  },
 ]

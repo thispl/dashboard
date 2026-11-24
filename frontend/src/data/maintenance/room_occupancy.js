@@ -1266,5 +1266,148 @@ export default [
       }
     ]
   },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS03'
+    },
 
+    records: [
+      {
+        buildings: [
+          "3101 - Type-1-2",
+          "3117 - Type-2",
+          "3102 - Type-3",
+          "3103 - Type-3",
+          "3104 - Type-3",
+          "3105 - Type-3",
+          "3106 - Type-3",
+          "3107 - Type-4",
+          "3100 - Community Center",
+          "TOTAL"
+        ],
+        totalRooms: [80, 56, 84, 84, 84, 90, 90, 38, 2, 608],
+        occupiedRooms: [71, 55, 81, 84, 80, 86, 89, 31, 2, 579],
+        vacantRooms: [9, 1, 3, 0, 4, 4, 1, 7, 0, 29],
+        occupancyPercent: [89, 98, 96, 100, 95, 96, 99, 82, 100, 95]
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: "PRS1"
+    },
+
+    records: [
+      {
+        buildings: [
+          "1101 - Type-1-2",
+          "1102 - Type-3",
+          "1103 - Type-4",
+          "TOTAL"
+        ],
+        totalRooms: [20, 60, 7, 87],
+        occupiedRooms: [19, 60, 6, 85],
+        vacantRooms: [1, 0, 1, 2],
+        occupancyPercent: [95, 100, 86, 98]
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: "PS06"
+    },
+
+    records: [
+      {
+        buildings: [
+          "6100 - Type-1",
+          "6100 - Type-2",
+          "6101 - Type-3-1",
+          "6102 - Type-3-2",
+          "6103 - Type-4",
+          "TOTAL"
+        ],
+        totalRooms: [8, 42, 96, 96, 98, 340],
+        occupiedRooms: [2, 37, 89, 91, 91, 310],
+        vacantRooms: [6, 5, 7, 5, 7, 30],
+        occupancyPercent: [25, 88, 93, 95, 93, 91]
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: "PS10"
+    },
+
+    records: [
+      {
+        buildings: [
+          "1001 - Type 1",
+          "1001 - Type 2",
+          "1002 - Type 3",
+          "1003 - Type 3",
+          "1004 - Type 4",
+          "Nurse Room",
+          "Driver Room",
+          "TOTAL"
+        ],
+        totalRooms: [8, 32, 88, 88, 28, 1, 1, 246],
+        occupiedRooms: [6, 30, 85, 87, 27, 1, 1, 237],
+        vacantRooms: [2, 2, 3, 1, 1, 0, 0, 7],
+        occupancyPercent: [75, 94, 97, 99, 96, 100, 100, 96]
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: "PS05"
+    },
+
+    records: [
+      {
+        buildings: [
+          "5100 - Type-2",
+          "5101 - Type-3",
+          "5102 - Type-4",
+          "TOTAL"
+        ],
+        totalRooms: [16, 72, 7, 95],
+        occupiedRooms: [16, 72, 7, 95],
+        vacantRooms: [0, 0, 0, 0],
+        occupancyPercent: [100, 100, 100, 100]
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: "PS01"
+    },
+
+    records: [
+      {
+        buildings: [
+          "101 - Type 1 & 2",
+          "102 - Type 3",
+          "103 - Type 4",
+          "TOTAL"
+        ],
+        totalRooms: [14, 112, 9, 135],
+        occupiedRooms: [11, 109, 2, 122],
+        vacantRooms: [3, 3, 7, 13],
+        occupancyPercent: [79, 97, 22, 90]
+      }
+    ]
+  },
 ]

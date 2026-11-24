@@ -2378,5 +2378,206 @@ export default [
       }
     ]
   },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS03'
+    },
+
+    records: [
+      {
+        subjects: [
+          "A-Architectural",
+          "C-Civil",
+          "E-Electrical",
+          "F-FCM",
+          "G-General",
+          "H-HVAC",
+          "J-C3",
+          "M-Mechanical",
+          "Total"
+        ],
+
+        scheduled: [2, 72, 68, 3, 0, 47, 77, 123, 392],
+        accomplished: [2, 72, 68, 3, 0, 47, 77, 123, 392],
+        percentage: [100, 100, 100, 100, 100, 100, 100, 100, 100],
+
+        completion_rate: "100%",
+
+        totals: {
+          scheduled: "392",
+          accomplished: "392"
+        }
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PRS1'
+    },
+
+    records: [
+      {
+        subjects: [
+          "C-Civil",
+          "E-Electrical",
+          "H-HVAC",
+          "J-C3",
+          "M-Mechanical",
+          "A-Architectural",
+          "F-Facility Cleaning Department",
+          "Total"
+        ],
+
+        scheduled: [25, 17, 12, 7, 38, 3, 1, 103],
+        accomplished: [25, 17, 12, 7, 38, 3, 1, 103],
+        percentage: [100, 100, 100, 100, 100, 100, 100, 100],
+
+        completion_rate: "100%",
+
+        totals: {
+          scheduled: "103",
+          accomplished: "103"
+        }
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS06'
+    },
+
+    records: [
+      {
+        subjects: [
+          "A-Architectural",
+          "C-Civil",
+          "E-Electrical",
+          "F-FCM",
+          "G-General",
+          "H-HVAC",
+          "J-C3",
+          "M-Mechanical",
+          "Total"
+        ],
+
+        scheduled: [0, 66, 16, 0, 0, 7, 21, 55, 165],
+        accomplished: [0, 66, 16, 0, 0, 7, 21, 55, 165],
+        percentage: [100, 100, 100, 100, 100, 100, 100, 100, 100],
+
+        completion_rate: "100%",
+
+        totals: {
+          scheduled: "165",
+          accomplished: "165"
+        }
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS10'
+    },
+
+    records: [
+      {
+        subjects: [
+          "A-Architectural",
+          "C-Civil",
+          "E-Electrical",
+          "F-FCM",
+          "H-HVAC",
+          "J-C3",
+          "M-Mechanical",
+          "Total"
+        ],
+
+        scheduled: [1, 7, 19, 0, 2, 6, 32, 67],
+        accomplished: [1, 7, 19, 0, 2, 6, 32, 67],
+        percentage: [100, 100, 100, 100, 100, 100, 100, 100],
+
+        completion_rate: "100%",
+
+        totals: {
+          scheduled: "67",
+          accomplished: "67"
+        }
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS05'
+    },
+
+    records: [
+      {
+        subjects: [
+          "SHE",
+          "C-Civil",
+          "E-Electrical",
+          "F-FCM",
+          "H-HVAC",
+          "J-C3",
+          "M-Mechanical",
+          "Total"
+        ],
+
+        scheduled: [0, 23, 8, 2, 4, 3, 22, 62],
+        accomplished: [0, 23, 8, 2, 4, 3, 22, 62],
+        percentage: [100, 100, 100, 100, 100, 100, 100, 100],
+
+        completion_rate: "100%",
+
+        totals: {
+          scheduled: "62",
+          accomplished: "62"
+        }
+      }
+    ]
+  },
+  {
+    meta: {
+      year: 2026,
+      month: "October",
+      site: 'PS01'
+    },
+
+    records: [
+      {
+        subjects: [
+          "C-Civil",
+          "F-FCM",
+          "G-General Services",
+          "A-Architectural",
+          "E-Electrical",
+          "H-HVAC",
+          "J-C3",
+          "M-Mechanical",
+          "Total"
+        ],
+
+        scheduled: [15, 0, 2, 0, 22, 4, 13, 43, 99],
+        accomplished: [15, 0, 2, 0, 22, 4, 13, 43, 99],
+        percentage: [100, 100, 100, 100, 100, 100, 100, 100, 100],
+
+        completion_rate: "100%",
+
+        totals: {
+          scheduled: "99",
+          accomplished: "99"
+        }
+      }
+    ]       
+  },
 
 ]
