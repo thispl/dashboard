@@ -349,10 +349,23 @@ def format_manpower_details(doc):
     cats = []
     ind = []
     act = []
+    others_ind = 0
+    others_act = 0
     for r in doc.manpower_detailed:
-        cats.append(r.function or "")
-        ind.append(cint(flt(r.indicative or 0)))
-        act.append(cint(flt(r.actual or 0)))
+        name = (r.function or "").strip()
+        i = cint(flt(r.indicative or 0))
+        a = cint(flt(r.actual or 0))
+        lowered = name.lower()
+        if "supervisor" in lowered or "manager" in lowered:
+            cats.append(name)
+            ind.append(i)
+            act.append(a)
+        else:
+            others_ind += i
+            others_act += a
+    cats.append("Others")
+    ind.append(others_ind)
+    act.append(others_act)
     return [{
         "categories": cats,
         "series": [
