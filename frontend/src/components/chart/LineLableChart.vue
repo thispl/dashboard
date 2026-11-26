@@ -69,7 +69,7 @@ export default {
         },
         labels: {
           rotate: -45,
-          style: { fontSize: "10px" }
+          style: { fontSize: "8px" }
         }
       },
 
